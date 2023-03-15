@@ -3,3 +3,9 @@ ssh -i ssh/dawon_test.pem ubuntu@ec2-43-201-34-95.ap-northeast-2.compute.amazona
 uwsgi --http :8080 --home /home/ubuntu/myvenv/ --chdir /srv/aws_django_serving/ -w mysite.wsgi
 
 
+
+public ip4
+43.201.34.95
+
+
+
